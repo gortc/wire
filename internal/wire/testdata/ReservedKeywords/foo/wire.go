@@ -17,7 +17,7 @@
 package main
 
 import (
-	"github.com/google/wire"
+	"gortc.io/wire"
 )
 
 // Wire tries to disambiguate the variable "select" by prepending

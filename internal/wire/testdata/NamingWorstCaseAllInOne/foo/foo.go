@@ -25,7 +25,7 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/google/wire"
+	"gortc.io/wire"
 )
 
 type context struct{}

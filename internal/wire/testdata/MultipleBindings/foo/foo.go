@@ -18,7 +18,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/google/wire"
+	"gortc.io/wire"
 )
 
 type context struct{}

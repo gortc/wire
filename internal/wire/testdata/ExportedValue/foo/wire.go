@@ -18,7 +18,7 @@ package main
 
 import (
 	"example.com/bar"
-	"github.com/google/wire"
+	"gortc.io/wire"
 )
 
 func injectedMessage() string {

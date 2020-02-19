@@ -1,4 +1,4 @@
-module github.com/google/wire
+module gortc.io/wire
 
 go 1.12
 

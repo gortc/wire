@@ -22,7 +22,7 @@ import (
 	"example.com/bar"
 	"example.com/baz"
 	"example.com/foo"
-	"github.com/google/wire"
+	"gortc.io/wire"
 )
 
 type MainConfig struct {

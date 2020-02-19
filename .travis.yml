@@ -13,7 +13,7 @@
 # limitations under the License.
 
 language: go
-go_import_path: github.com/google/wire
+go_import_path: gortc.io/wire
 
 before_install:
   # The Bash that comes with OS X is ancient.

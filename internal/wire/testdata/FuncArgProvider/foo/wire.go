@@ -17,7 +17,7 @@
 package main
 
 import (
-	"github.com/google/wire"
+	"gortc.io/wire"
 )
 
 func injectBar(fn func() *Foo) *Bar {

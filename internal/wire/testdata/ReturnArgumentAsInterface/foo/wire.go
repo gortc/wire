@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/google/wire"
+	"gortc.io/wire"
 )
 
 func injectStringer(s MyString) fmt.Stringer {

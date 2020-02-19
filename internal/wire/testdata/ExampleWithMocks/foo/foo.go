@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/google/wire"
+	"gortc.io/wire"
 )
 
 func main() {

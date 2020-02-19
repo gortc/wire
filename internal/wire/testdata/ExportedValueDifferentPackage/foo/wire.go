@@ -20,7 +20,7 @@ import (
 	"os"
 
 	"example.com/bar"
-	"github.com/google/wire"
+	"gortc.io/wire"
 )
 
 func injectedFile() *os.File {

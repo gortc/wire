@@ -1,9 +1,8 @@
 # Wire: Automated Initialization in Go
 
-[![Build Status](https://travis-ci.com/google/wire.svg?branch=master)][travis]
-[![godoc](https://godoc.org/github.com/google/wire?status.svg)][godoc]
-[![Coverage](https://codecov.io/gh/google/wire/branch/master/graph/badge.svg)](https://codecov.io/gh/google/wire)
-
+[![Build Status](https://travis-ci.com/gortc/wire.svg?branch=master)][travis]
+[![godoc](https://godoc.org/gortc.io/wire?status.svg)][godoc]
+[![Coverage](https://codecov.io/gh/gortc/wire/branch/master/graph/badge.svg)](https://codecov.io/gh/google/wire)
 
 Wire is a code generation tool that automates connecting components using
 [dependency injection][]. Dependencies between components are represented in
@@ -16,7 +15,7 @@ For an overview, see the [introductory blog post][].
 
 [dependency injection]: https://en.wikipedia.org/wiki/Dependency_injection
 [introductory blog post]: https://blog.golang.org/wire
-[godoc]: https://godoc.org/github.com/google/wire
+[godoc]: https://godoc.org/gortc.io/wire
 [travis]: https://travis-ci.com/google/wire
 
 ## Installing
@@ -24,7 +23,7 @@ For an overview, see the [introductory blog post][].
 Install Wire by running:
 
 ```shell
-go get github.com/google/wire/cmd/wire
+go get gortc.io/wire/cmd/wire
 ```
 
 and ensuring that `$GOPATH/bin` is added to your `$PATH`.

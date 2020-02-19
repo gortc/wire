@@ -163,7 +163,7 @@ injector complete, we are ready to use the `wire` command line tool.
 Install the tool with:
 
 ``` shell
-go get github.com/google/wire/cmd/wire
+go get gortc.io/wire/cmd/wire
 ```
 
 Then in the same directory with the above code, simply run `wire`. Wire will
@@ -348,9 +348,9 @@ Running `wire`, we see the following:
 
 ``` shell
 # wrapping the error across lines for readability
-$GOPATH/src/github.com/google/wire/_tutorial/wire.go:24:1:
-inject InitializeEvent: no provider found for github.com/google/wire/_tutorial.Greeter
-(required by provider of github.com/google/wire/_tutorial.Event)
+$GOPATH/src/gortc.io/wire/_tutorial/wire.go:24:1:
+inject InitializeEvent: no provider found for gortc.io/wire/_tutorial.Greeter
+(required by provider of gortc.io/wire/_tutorial.Event)
 wire: generate failed
 ```
 
@@ -378,7 +378,7 @@ func InitializeEvent(phrase string) (Event, error) {
 Wire helpfully tells us that we have an unused provider:
 
 ``` shell
-$GOPATH/src/github.com/google/wire/_tutorial/wire.go:24:1:
+$GOPATH/src/gortc.io/wire/_tutorial/wire.go:24:1:
 inject InitializeEvent: unused provider "NewEventNumber"
 wire: generate failed
 ```

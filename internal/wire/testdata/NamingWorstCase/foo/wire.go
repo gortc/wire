@@ -19,7 +19,7 @@ package main
 import (
 	stdcontext "context"
 
-	"github.com/google/wire"
+	"gortc.io/wire"
 )
 
 func inject(context stdcontext.Context, err struct{}) (context, error) {
